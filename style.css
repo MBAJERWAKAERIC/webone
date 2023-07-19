@@ -1,0 +1,57 @@
+.card {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+
+.beer{
+    background-color: green;
+}
+
+.soda{
+    background-color: blue;
+}
+
+.whiskey{
+    background-color: gray;
+}
+.liquor{
+    background-color: red;
+}
+.navbar{
+    background-color: black;
+    overflow:hidden;
+}
+
+.navbar a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:16px ;
+}
+
+.navbar a:hover{
+    background-color: rgba(255, 255, 255, 0.795);
+    color: black;
+}
+.navbar a.active{
+    background-color: green;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
